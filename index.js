@@ -32,3 +32,19 @@ const db = new database();
 // db.rollbackTransaction();
 // console.log(db.get("Name"));
 // console.log(db.count());
+
+//case 6
+// db.beginTransaction();
+// db.set("Name", "Niraj");
+// db.set("Name", "Sanish");
+// db.commitTransaction();
+// db.commitTransaction();
+// console.log(db.get("Name"));
+
+// case 7
+// db.beginTransaction();
+// db.set("Name", "Niraj");
+// db.commitTransaction();
+// // db.set("Name", "Sanish");
+// // db.set("Hello", "Niraj");
+// console.log(db.count());
